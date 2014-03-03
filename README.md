@@ -1,7 +1,7 @@
 perfnow.js
 ==========
 
-Safely use microsecond precision timing using this <b>132 byte</b> `window.performance.now` polyfill with `Date` fallback.
+Safely use microsecond precision timing using this <b>126 byte</b> `window.performance.now` polyfill with `Date` fallback.
 
 
 Tested Environments
