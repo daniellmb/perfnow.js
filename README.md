@@ -33,7 +33,7 @@ Why?
 ----
 Unlike other timing data available to JavaScript (for example `Date.now`), the timestamps returned by `Performance.now()` are not limited to one-millisecond resolution. Instead, they represent times as floating-point numbers with up to microsecond precision.
 
-Also unlike `Date.now`, the values returned by `Performance.now()` always increase at a constant rate, independent of the system clock (which might be adjusted manually or skewed by software such as the Network Time Protocol).
+Also unlike `Date.now`, the values returned by `Performance.now()` always increase at a constant rate, independent of the system clock which might be adjusted manually or skewed by software such as the Network Time Protocol.
 
 License 
 -------
