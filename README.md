@@ -35,6 +35,15 @@ Unlike other timing data available to JavaScript (for example `Date.now`), the t
 
 Also unlike `Date.now`, the values returned by `Performance.now()` always increase at a constant rate, independent of the system clock which might be adjusted manually or skewed by software such as the Network Time Protocol.
 
+When?
+-----
+There are a many situations where you should use this high resolution timer instead of a basic timestamp:
+
+- **benchmarking**
+- calculating framerate with precision
+- cueing actions or audio to occur at specific points in an animation or other time-based sequence
+- game or animation runloop code
+
 License 
 -------
 (The MIT License)
