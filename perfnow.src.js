@@ -6,8 +6,8 @@
         performance.msNow ||
         performance.oNow ||
         performance.webkitNow ||
-        //final fallback
+        //fallback to Date time
         function () {
-            return new Date().getTime();
+            return +new Date;
         };
 })(window);
