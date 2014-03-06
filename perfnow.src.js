@@ -8,6 +8,6 @@
         performance.webkitNow ||
         //fallback to Date time
         function () {
-            return +new Date;
+            return new Date().getTime();
         };
 })(window);
