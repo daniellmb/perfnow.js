@@ -3,9 +3,9 @@
  * @author Daniel Lamb <dlamb.open.source@gmail.com>
  */
 
-function perfnow(window){
+function perfnow(window) {
   // make sure we have an object to work with
-  if(!('performance' in window)) {
+  if (!('performance' in window)) {
     window.performance = {};
   }
   var perf = window.performance;
@@ -18,6 +18,6 @@ function perfnow(window){
     // fallback to Date
     Date.now || function () {
       return new Date().getTime();
-  };
+    };
 }
 perfnow(window);
