@@ -1,5 +1,6 @@
 perfnow.js
 ==========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/daniellmb/perfnow.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Safely use microsecond precision timing using this <b>131 byte</b> `window.performance.now` polyfill with `Date` fallback.
 
