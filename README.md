@@ -114,7 +114,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [gpa-url]: https://codeclimate.com/github/daniellmb/perfnow.js
 [gpa-image]: https://codeclimate.com/github/daniellmb/perfnow.js.png
 
-[coverage-url]: https://codeclimate.com/github/daniellmb/perfnow/code?sort=covered_percent&sort_direction=desc
+[coverage-url]: https://codeclimate.com/github/daniellmb/perfnow.js/code?sort=covered_percent&sort_direction=desc
 [coverage-image]: https://codeclimate.com/github/daniellmb/perfnow.js/coverage.png
 
 [depstat-url]: https://david-dm.org/daniellmb/perfnow.js
