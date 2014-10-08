@@ -108,19 +108,19 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
-[build-url]: https://travis-ci.org/daniellmb/perfnow
+[build-url]: https://travis-ci.org/daniellmb/perfnow.js
 [build-image]: http://img.shields.io/travis/daniellmb/perfnow.js.png
 
-[gpa-url]: https://codeclimate.com/github/daniellmb/perfnow
+[gpa-url]: https://codeclimate.com/github/daniellmb/perfnow.js
 [gpa-image]: https://codeclimate.com/github/daniellmb/perfnow.js.png
 
 [coverage-url]: https://codeclimate.com/github/daniellmb/perfnow/code?sort=covered_percent&sort_direction=desc
 [coverage-image]: https://codeclimate.com/github/daniellmb/perfnow.js/coverage.png
 
-[depstat-url]: https://david-dm.org/daniellmb/perfnow
+[depstat-url]: https://david-dm.org/daniellmb/perfnow.js
 [depstat-image]: https://david-dm.org/daniellmb/perfnow.js.png?theme=shields.io
 
-[issues-url]: https://github.com/daniellmb/perfnow/issues
+[issues-url]: https://github.com/daniellmb/perfnow.js/issues
 [issues-image]: http://img.shields.io/github/issues/daniellmb/perfnow.png
 
 [bower-url]: http://bower.io/search/?q=perfnow
