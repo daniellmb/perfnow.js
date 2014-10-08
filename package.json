@@ -1,0 +1,63 @@
+{
+  "name": "perfnow",
+  "version": "0.1.0",
+  "description": "0.12 kb window.performance.now high resolution timer polyfill with Date fallback",
+  "author": {
+    "name": "Daniel Lamb",
+    "email": "dlamb.open.source@gmail.com",
+    "url": "https://github.com/daniellmb"
+  },
+  "homepage": "https://github.com/daniellmb/perfnow.js",
+  "bugs": {
+    "url": "https://github.com/daniellmb/perfnow.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://daniellmb.mit-license.org"
+    }
+  ],
+  "maintainers": [],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daniellmb/perfnow.js.git"
+  },
+  "main": "perfnow.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "micro",
+    "library",
+    "window",
+    "performance",
+    "timer",
+    "microsecond",
+    "precision",
+    "timing",
+    "polyfill",
+    "date",
+    "fallback"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-complexity": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-uglify": "*",
+    "gulp-coffee": "*",
+    "gulp-karma": "*",
+    "karma-jasmine": "*",
+    "coffee-script": "*",
+    "karma-coffee-preprocessor": "*",
+    "karma-coverage": "*",
+    "karma-phantomjs-launcher": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

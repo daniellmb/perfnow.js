@@ -1,0 +1,32 @@
+language: node_js
+
+node_js:
+  - '0.10'
+
+before_script:
+  - npm install -g codeclimate-test-reporter
+
+after_script:
+  - codeclimate < test/coverage/**/lcov.info
+
+notifications:
+  # publish build status to IRC channel: #perfnow
+  irc:
+    channels:
+    - chat.freenode.net#perfnow
+    on_success: always
+    on_failure: always
+    template:
+    - '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}'
+    - 'Change view : %{compare_url}'
+    - 'Build details : %{build_url}'
+  # publish build status to gitter chat room: https://gitter.im/daniellmb/perfnow.js
+  webhooks:
+    urls:
+    - https://webhooks.gitter.im/e/caa76b9908daff69cf3f
+    on_success: always
+    on_failure: always
+    on_start: false
+
+env:
+  - CODECLIMATE_REPO_TOKEN=92e0cc296546b991ba810d2c0a2b8b57f0c40ef8a39ffe2aaf4706123c420aff
