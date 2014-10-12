@@ -135,8 +135,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [irc-url]: http://webchat.freenode.net/?channels=perfnow
 [irc-image]: http://img.shields.io/badge/irc-%23perfnow-brightgreen.png
 
-[gitter-url]: https://gitter.im/daniellmb/perfnow
-[gitter-image]: http://img.shields.io/badge/gitter-daniellmb/perfnow-brightgreen.png
+[gitter-url]: https://gitter.im/daniellmb/perfnow.js
+[gitter-image]: http://img.shields.io/badge/gitter-daniellmb/perfnowjs-brightgreen.png
 
 [tip-url]: https://www.gittip.com/daniellmb
 [tip-image]: http://img.shields.io/gittip/daniellmb.png
