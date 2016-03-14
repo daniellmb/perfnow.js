@@ -1,7 +1,7 @@
 {
   "name": "perfnow",
-  "version": "0.1.0",
-  "description": "0.12 kb window.performance.now high resolution timer polyfill with Date fallback",
+  "version": "0.2.0",
+  "description": "0.1 kb window.performance.now high resolution timer polyfill with Date fallback",
   "author": {
     "name": "Daniel Lamb",
     "email": "dlamb.open.source@gmail.com",
@@ -11,12 +11,7 @@
   "bugs": {
     "url": "https://github.com/daniellmb/perfnow.js/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://daniellmb.mit-license.org"
-    }
-  ],
+  "license": "MIT",
   "maintainers": [],
   "contributors": [],
   "repository": {
@@ -38,24 +33,29 @@
     "timing",
     "polyfill",
     "date",
-    "fallback"
+    "fallback",
+    "webworker"
   ],
   "dependencies": {
   },
   "devDependencies": {
+    "coffee-script": "*",
     "gulp": "*",
-    "gulp-jshint": "*",
+    "gulp-coffee": "*",
     "gulp-complexity": "*",
+    "gulp-jshint": "*",
+    "gulp-karma": "*",
     "gulp-rename": "*",
     "gulp-replace": "*",
     "gulp-uglify": "*",
-    "gulp-coffee": "*",
-    "gulp-karma": "*",
-    "karma-jasmine": "*",
-    "coffee-script": "*",
+    "jasmine-core": "*",
+    "jshint": "*",
+    "karma": "*",
     "karma-coffee-preprocessor": "*",
     "karma-coverage": "*",
-    "karma-phantomjs-launcher": "*"
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "phantomjs-prebuilt": "*"
   },
   "engines": {
     "node": ">=0.10.0"

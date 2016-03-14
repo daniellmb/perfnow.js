@@ -12,9 +12,9 @@
 
 perfnow.js is a micro-library written in both CoffeeScript and JavaScript.
 
-Safely use microsecond precision timing using this **0.14 kb** `window.performance.now` polyfill with `Date` fallback.
+Safely use microsecond precision timing using this **0.1 kb** `performance.now` polyfill with `Date` fallback.
 
-This repository was scaffolded with [generator-microjs](https://github.com/daniellmb/generator-microjs).
+This minimal utility is compatible with all browsers as well as the more restricted web worker environment.
 
 ## Examples
 

@@ -1,16 +1,16 @@
 /**
- * @file perfnow is a 0.14 kb window.performance.now high resolution timer polyfill with Date fallback
+ * @file perfnow is a 0.1 kb performance.now high resolution timer polyfill with Date fallback
  * @author Daniel Lamb <dlamb.open.source@gmail.com>
  */
 
-function perfnow(window) {
+function perfnow(global) {
   // make sure we have an object to work with
-  if (!('performance' in window)) {
-    window.performance = {};
+  if (!('performance' in global)) {
+    global.performance = {};
   }
-  var perf = window.performance;
+  var perf = global.performance;
   // handle vendor prefixing
-  window.performance.now = perf.now ||
+  global.performance.now = perf.now ||
     perf.mozNow ||
     perf.msNow ||
     perf.oNow ||
@@ -20,4 +20,4 @@ function perfnow(window) {
       return new Date().getTime();
     };
 }
-perfnow(window);
+perfnow(self);

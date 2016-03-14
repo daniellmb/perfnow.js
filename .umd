@@ -1,5 +1,5 @@
 /**
- * @file perfnow is a 0.12 kb window.performance.now high resolution timer polyfill with Date fallback
+ * @file perfnow is a 0.1 kb window.performance.now high resolution timer polyfill with Date fallback
  * @author Daniel Lamb <dlamb.open.source@gmail.com>
  */
 $1
